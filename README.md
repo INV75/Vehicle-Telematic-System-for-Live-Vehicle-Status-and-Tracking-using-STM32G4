@@ -21,6 +21,7 @@ Other iterations include loopback tests for the NEO 6M and MCP2515 modules, ping
 
 
 CURRENT PROGRESS:
+
 The working of the SIM900A, NEO 6M and MCP2515 have been successfully verified and can be checked using the files in the main branch of the project.
 
 -The SIM900A is successfully receiving AT commands and giviing a response back. The connection status and AT detection is verified using the on-board LED (PA5) on the STM32 and the SSD1306.
