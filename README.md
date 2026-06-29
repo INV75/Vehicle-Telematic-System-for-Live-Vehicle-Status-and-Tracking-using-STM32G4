@@ -15,6 +15,8 @@ The setup is currently running in the local machine. The setup will soon be conf
 
 PROJECT FILES:
 
+IoT Dashboard: https://github.com/INV75/Node-RED-Telemetry-Dashboard
+
 The files in the main branch include STM32 projects for self-testing the breakout modules to understand and verify their working.
 There are also iterations to implement different functionalities such as displaying date, time and coordinate data on a 128x64 SSD1306 OLED display and to ping the same content as a POST on a webhook url.
 Other iterations include loopback tests for the NEO 6M and MCP2515 modules, pinging AT commands to the SIM900A and checking for a response, basic display testing and reading the raw CAN matrix data from the OBD-2 port of a vehicle.
